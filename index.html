@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-1">
+            <a href="#" class="scroll-link" data-target="section-2" >PAST</a>
+            <a href="" class="scroll-link"  data-target="section-3" >SERVICES</a>
+            <a href="" class="scroll-link" data-target="section-4" >REVIEWS</a>
+            <a href="" class="scroll-link"  data-target="footer-1" >CONTACTS</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-1">
+            <div class="big-title-1">
+                <div class="title-1">
+                    <h1>Hulya Gumus</h1>
+                </div>
+                <div class="desc-1">
+                    <p>Hello, my name is Hulya and I am a Financial Advisor. I have over ten years of experience in this sector, keeping accounts and analyzing data for some of the largest companies in the country.</p>
+                </div>
+            </div>
+
+            <div class="title-img-1">
+                <img src="./images/women01.jpeg" alt="">
+            </div>
+        </section>
+
+        <section class="section-2" id="section-2" >
+            <div class="title-2">
+                <h2>
+                    My name is Hülya and I have a special interest in numbers.
+                </h2>
+            </div>
+
+            <div class="big-container-2" >
+                <div class="big-desc-2">
+                    <div class="desc-2">
+                        <p>
+                            About a year ago, I decided to start my own consulting company to help small and medium-sized businesses with their accounts. I believe that entrepreneurs and business owners of all levels should have access to data analysis and meaningful guidance.
+                        </p>
+                    </div>
+
+                    <div class="name-desc-2">
+                        <h3>Let's make your business successful together.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-3" id="section-3" >
+            <div class="title-3">
+                <h1>My Works</h1>
+            </div>
+
+            <div class="big-container-3">
+                <div class="container-3">
+                    <h1>My Skills</h1>
+                    <ul>
+                        <li>Research</li>
+                        <li>Evaluation and Report Writting</li>
+                        <li>Analytical Thinking</li>
+                        <li>Business Development</li>
+                    </ul>
+                </div>
+                <div class="container-3-2">
+                    <h1>Services I Offer</h1>
+                    <ul>
+                        <li>Data Analysis</li>
+                        <li>Investment Advice</li>
+                        <li>Asset Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-4" id="section-4" >
+            <div class="big-title-4">
+                <div class="title-4">
+                    <h1>I have worked with different companies and organizations over the years.</h1>
+                </div>
+                <div class="desc-4">
+                    <p>Duran Holding / Güreli Group / Sarıgöl Informatics / Süper Parlak Ltd. / Portal Technology Company / Babil Travel / Studio Meryem / Heyman Software Laboratory / Sapanca Ltd. / Nebula Enterprise</p>
+                </div>
+            </div>
+
+            <div class="image-4">
+                <img src="./images/women.jpg" alt="">
+            </div>
+
+            <div class="big-container-4">
+                <div class="container-4">
+                    <h3>
+                        Nil Tekeli
+                        Founder, Duran Holding
+                    </h3>
+                    <p>Hulya is a gem. She helped our new venture blossom and found new goals for us to reach!</p>
+                </div>
+                <div class="container-4">
+                    <h3>
+                        Semiha Helvacı
+                        Entrepreneur
+                    </h3>
+                    <p>I am a very energetic person, and Hulya is just like me. She helped me clarify my goals and create a strategy to achieve them. It was the best business decision I have ever made!</p>
+                </div>
+                <div class="container-4">
+                    <h3>
+                        Saner Gurkan
+                        COO, Gureli Group
+                    </h3>
+                    <p> As a medium-sized family business, we benefited greatly from Hulya's expertise and guidance.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-1"  id="footer-1" >
+        <div class="image-foot">
+            <img src="./images/women3.webp" alt="">
+        </div>
+
+        <div class="big-container-footer">
+            <div class="title-foot">
+                <h1>Work with me!</h1>
+            </div>
+            <div class="desc-foot">
+                <p>Call: 0123 456 78 90</p>
+                <p>Email: hello@gmail.com</p>
+            </div>
+            <div class="social-media">
+                <button>Linkedin</button>
+                <button type="button">Instagram</button>
+                <button type="button">Facebook</button>
+                <button type="button">Twitter</button>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+         document.querySelectorAll('.scroll-link').forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('data-target');
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    });
+    </script>
+</body>
+</html>

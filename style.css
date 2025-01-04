@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Anton&family=Bangers&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Krona+One&family=Nosifer&family=Protest+Revolution&family=Yatra+One&display=swap');
+
+body{
+    background-color:  #efe098;
+    color: #b44715;
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.header-1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 50px;
+    margin: 50px 100px;
+}
+.header-1 a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #b44715;
+}
+
+/* section - 1 */
+
+.big-title-1{
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 800px;
+    margin: 200px 100px;
+}
+.title-1{
+    font-size: 50px;
+}
+.desc-1{
+    font-size: 30px;
+}
+
+.title-img-1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top:-650px;
+    margin-right: 100px;
+}
+.title-img-1 img{
+    width: 736px;
+    height: 780px;
+    object-fit: cover;
+}
+
+/* section - 2*/
+
+.section-2{
+    padding: 200px 0;
+}
+.title-2{
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 500px;
+    margin-left: 100px;
+}
+.title-2 h2{
+    font-size: 70px;
+}
+.big-desc-2{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+}
+.big-container-2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -300px;
+    margin-right: 100px;
+}
+.desc-2 p{
+    font-size: 25px;
+}
+.name-desc-2 h3{
+    font-size: 30px;
+}
+
+/* section - 3*/
+.title-3{
+    margin-left: 100px;
+}
+.title-3 h1{
+    font-size: 70px;
+}
+.big-container-3{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+.container-3{
+    border: 1px solid #b44715;
+    padding: 50px 20px;
+    width: 500px;
+}
+.container-3-2{
+    border: 1px solid #b44715;
+    padding: 50px 20px;
+    width: 500px;
+}
+.container-3 h1{
+    font-size: 40px;
+}
+.container-3-2 h1{
+    font-size: 40px;
+}
+.container-3 li{
+    font-size: 20px;
+}
+.container-3-2 li{
+    font-size: 20px;
+}
+
+/*section - 4 */
+.section-4{
+    padding: 200px 0;
+}
+
+.big-title-4{
+    width: 800px;
+    margin-left: 100px;
+}
+.title-4 h1{
+    font-size: 50px;
+}
+.desc-4 p{
+    font-size: 20px;
+}
+.image-4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -300px;
+    margin-right: 100px;
+}
+.big-container-4{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 200px;
+}
+.container-4{
+    width: 400px;
+}
+.container-4 h3{
+    font-size: 30px;
+}
+.container-4 p{
+    font-size: 20px;
+}
+
+/* footer */
+
+.title-foot{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.title-foot h1{
+    font-size: 70px;
+}
+.big-container-footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top: -650px;
+    margin-right: 200px;
+    text-align: center;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.social-media button{
+    width: 300px;
+    height: 40px;
+    background-color: #b44715;
+    color: white;
+    font-family: "Anton", serif;
+    cursor: pointer;
+}
+.image-foot{
+    margin-left: 100px;
+}
+footer{
+    padding-bottom: 200px;
+}
